@@ -1,6 +1,6 @@
 'use strict';
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
   View,
   NativeModules,
@@ -9,6 +9,7 @@ import {
   findNodeHandle,
   Platform
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 import cloneDeep from 'lodash/cloneDeep';
 import clone from 'lodash/clone';

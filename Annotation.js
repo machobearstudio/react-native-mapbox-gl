@@ -1,15 +1,6 @@
-import React, { PropTypes } from 'react';
-import {
-  View,
-  requireNativeComponent,
-  StyleSheet,
-  Platform,
-  NativeModules,
-  Animated,
-  findNodeHandle,
-} from 'react-native';
-
-import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
+import React from 'react';
+import { View, requireNativeComponent } from 'react-native';
+import PropTypes from 'prop-types';
 
 const viewConfig = {
   uiViewClassName: 'RCTMapboxAnnotation',

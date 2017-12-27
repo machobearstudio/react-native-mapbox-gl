@@ -1,3 +1,5 @@
+Note: v6.0.0 onwards drops use of the deprecated React.PropTypes and uses the new prop-types package as required by React v15.5
+
 # React Native Mapbox GL
 
 _An experimental React Native component for building maps with the [Mapbox iOS SDK](https://www.mapbox.com/ios-sdk/) and [Mapbox Android SDK](https://www.mapbox.com/android-sdk/)_
